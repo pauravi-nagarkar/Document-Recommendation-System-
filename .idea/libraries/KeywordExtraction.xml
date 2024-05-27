@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="KeywordExtraction">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Keyword_Final/Android_Code/KeywordExtraction.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

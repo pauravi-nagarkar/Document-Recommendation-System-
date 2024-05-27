@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@+id/textView1"
+    android:layout_toLeftOf="@+id/textView1"
+    android:background="@drawable/bback1"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="192.168.1.120" >
+
+        <requestFocus />
+    </EditText>
+
+    <ImageButton
+        android:id="@+id/btnSpeak"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@android:drawable/ic_btn_speak_now"
+        android:textColor="#ffffff"
+        android:textSize="19dp"
+        android:textStyle="normal"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/txtText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textStyle="normal"
+        android:typeface="serif" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/butnSubmit"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="SUBMIT"
+        android:textColor="#ffffff"
+        android:textSize="19dp"
+        android:textStyle="normal"
+        android:typeface="serif" />
+
+</LinearLayout>
